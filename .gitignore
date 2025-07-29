@@ -1,85 +1,33 @@
-# Byte-compiled / optimized / DLL files
-_pycache_/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Virtual environments
-.venv/
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
-# VS Code and other IDE config
-.vscode/
-.idea/
-*.sublime-workspace
-*.sublime-project
-
-# macOS and Linux file system files
+# macOS/Linux system files
 .DS_Store
 Thumbs.db
 
-# Logs and local dumps
+# Logs
 *.log
-*.pot
-*.pid
 
-# Test coverage reports
-htmlcov/
-.tox/
-.nox/
-coverage.xml
-*.cover
-.cache
-nosetests.xml
-pytest_cache/
-*.prof
+# VS Code and other IDE settings
+.vscode/
+.idea/
 
-# Build artifacts
-build/
-dist/
-*.egg-info/
-*.egg
-.eggs/
-
-# Ollama local model files
-/models/
-
-# Local memory/state files
-kiron_memory.json
-kiron_personal.json
-
-# Node modules (for frontend, if applicable)
+# Node dependencies (if you use npm later)
 node_modules/
-*.lock
 
-# Static site build (GitHub Pages)
-docs/
-*.css
-*.js
-*.map
-
-# Flask or web servers
-instance/
-*.db
-*.sqlite3
-*.pyc
-*.pyo
-*.pyd
-
-# Environment variables
+# Environment files (if added)
 .env
 .env.*
 
-# Backup and temporary files
-*.bak
+# Backup/temporary files
 *.tmp
+*.bak
 ~$*
+
+# Build tools output (if used later)
+dist/
+build/
+
+# Personal JSON or memory files
+kiron_memory.json
+kiron_personal.json
+
+# Ollama models
+/models/
