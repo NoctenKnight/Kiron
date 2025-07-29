@@ -63,7 +63,6 @@ node_modules/
 
 # Static site build (GitHub Pages)
 docs/
-*.html
 *.css
 *.js
 *.map
